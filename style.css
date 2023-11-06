@@ -1,21 +1,14 @@
 header {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    background: #ffffff;
-    position: fixed;
-    width: 100%;
-    top: 0;
+    background: rgb(11, 46, 111);
+    position: static;
+    text-align: center;
     opacity: 60%;
+    color: rgb(255, 255, 255);
    }
-   
-   header, nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    
-   }
-   
-   nav ul li {
-    margin-left: 1rem;
+
+
+   .text-boas-vindas{
+    animation: inicio 1s ;
    }
 
    .background{
@@ -25,6 +18,8 @@ header {
     background-position: center; /* Centraliza a imagem de fundo vertical e horizontalmente */
     background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
    }
-   @keyframes inicio{
-    
+   @keyframes inicio {
+
+    50% {font-size: 16.1px;}
+
    }

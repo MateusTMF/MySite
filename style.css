@@ -18,6 +18,13 @@ header {
     margin-left: 1rem;
    }
 
+   .background{
+    background-image: url(imagens/3409297.jpg);
+    height: 100vh; /* Ajusta a altura para preencher a tela inteira */
+    background-size: cover; /* Ajusta o tamanho da imagem de fundo para cobrir o container */
+    background-position: center; /* Centraliza a imagem de fundo vertical e horizontalmente */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+   }
    @keyframes inicio{
     
    }

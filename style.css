@@ -14,8 +14,3 @@
     background-position: center; /* Centraliza a imagem de fundo vertical e horizontalmente */
     background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
    }
-   @keyframes inicio {
-
-    50% {font-size: 16.1px;}
-
-   }

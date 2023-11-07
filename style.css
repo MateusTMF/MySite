@@ -1,4 +1,4 @@
-header {
+.text-boas-vindas {
     background: rgb(11, 46, 111);
     position: static;
     text-align: center;
@@ -6,10 +6,6 @@ header {
     color: rgb(255, 255, 255);
    }
 
-
-   .text-boas-vindas{
-    animation: inicio 1s ;
-   }
 
    .background{
     background-image: url(imagens/3409297.jpg);

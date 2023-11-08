@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .text-boas-vindas {
     background: rgb(11, 46, 111);
     position: static;
@@ -6,11 +10,9 @@
     color: rgb(255, 255, 255);
    }
 
+   #lin_grad {
+            
+    height: 100vh;  
 
-   .background{
-    background-image: url(imagens/3409297.jpg);
-    height: 100vh; /* Ajusta a altura para preencher a tela inteira */
-    background-size: cover; /* Ajusta o tamanho da imagem de fundo para cobrir o container */
-    background-position: center; /* Centraliza a imagem de fundo vertical e horizontalmente */
-    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
-   }
+    background-image: linear-gradient(rgb(52, 65, 142), rgb(0, 0, 75), rgb(0, 0, 0)); 
+}

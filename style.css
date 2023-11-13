@@ -11,7 +11,7 @@
     min-height: 100vh;
     background: url(imagens/4884273.jpg) no-repeat;
     background-size: cover;
-    background-position: centerw;
+    background-position: center;
 }
 .text-boas-vindas {
     width: 420px;
@@ -29,7 +29,8 @@
     min-height: 100vh;
     background: url(imagens/3409297.jpg);
     background-size: cover;
-    background-position: centerw;
+    background-position: center;
    }
+
 
    

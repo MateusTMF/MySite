@@ -1,46 +1,156 @@
-*{
-    margin: 0;
+* {
+    margin: 1;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
 }
 
-body{
+
+body {
     background-repeat: no-repeat;
-    background:fixed;
-    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
-    background: url(imagens/3409297.jpg);
-    background-size: cover; /* Faz com que a imagem de fundo cubra todo o container */
-    background-position: center; /* Posiciona a imagem no centro */
-}
-.background-header{
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
-    background-position: center; /* Posiciona a imagem no centro */
-}
-.text-boas-vindas{
-    width: 420px;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, .2); /* Define uma borda com transparência */
-    backdrop-filter: blur(20px); /* Adiciona um efeito de desfoque ao fundo */
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* Adiciona uma sombra ao contêiner */
-    color: #ffffff; /* Define a cor do texto como branco */
-    border-radius: 10px; /* Adiciona bordas arredondadas */
-    padding: 20px 40px; /* Adiciona preenchimento interno ao contêiner */
+    background-image: linear-gradient(to bottom,#621bd0,#4914a5,#310e7a,#180750,#000025 );/*Cria um degrade no fundo da pagina*/
 }
 
-.text-boas-vindas .btn{
-    width: 100%;
+.background-header {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    min-height: 100vh;
+    /* Define a altura mínima como 100% da altura da viewport */
+}
+
+.text-boas-vindas {
+    text-align: center;
+    margin: 25vb;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    /* Define uma borda com transparência */
+    backdrop-filter: blur(20px);
+    /* Adiciona um efeito de desfoque ao fundo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    /* Adiciona uma sombra ao contêiner */
+    border-radius: 15px;
+    /* Adiciona bordas arredondadas */
+    padding: 20px 40px;
+    /* Adiciona preenchimento interno ao contêiner */
+}
+
+.text-boas-vindas .btn {
+    width: 90%;
     height: 45px;
-    background: #fff; /* Define o fundo do botão como branco */
+    background: #fff;
+    /* Define o fundo do botão como branco */
     border: none;
     outline: none;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1); /* Adiciona uma sombra ao botão */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    /* Adiciona uma sombra ao botão */
+    font-size: 16px;
+    color: #333;
+    /* Define a cor do texto como cinza */
+    font-weight: 600;
+    /* Define a espessura da fonte como negrito */
+}
+.text-boas-vindas .btn:hover{
+    width: 92%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.section01{
+    text-align: center;
+}
+.section01 .btn{
+    width: 30vb; /*o elemento deve ocupar 50% da largura da janela de visualização.*/
+    height: 25px;
+    background: #fff;
+    /* Define o fundo do botão como branco */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    /* Adiciona uma sombra ao botão */
     cursor: pointer;
     font-size: 16px;
-    color: #333; /* Define a cor do texto como cinza */
-    font-weight: 600; /* Define a espessura da fonte como negrito */
+    color: #333;
+    /* Define a cor do texto como cinza */
+    font-weight: 600;
+    /* Define a espessura da fonte como negrito */
+    margin: 2vb; /*adiciona um espaçamento ao redor do botão*/
+}
+.section01 .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vb;
+}
+.section01 .card{
+    flex: 1;
+    border: 2px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.section01 .card:hover{/* hover: é usada para selecionar e estilizar um elemento quando o usuário passa o cursor sobre ele.*/
+    padding: 11px;
+    background-color: #310e7a;
+}
+
+.section02{
+    text-align: center;
+}
+
+.section02 .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vb;
+}
+
+.section02 .card{
+    flex: 1;
+    border: 2px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section02 .card:hover{
+    padding: 11px;
+    background-color: #310e7a;
+}
+
+.form-contato {
+    text-align: center;
+}
+
+/* Estilizando o campo de entrada de texto */
+.form-contato .input-box input{
+    width: 60vb;
+    margin: 1vb;
+    padding: 1vb;
+    background: #621bd0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Estilizando o texto de espaço reservado no campo de entrada */
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.form-contato .btn{
+    height: 30px;
+    width: 20vb;
+    font-size: 16px;
+    color: #621bd0;
+    border-radius: 20px;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
 }

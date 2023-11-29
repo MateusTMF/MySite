@@ -54,6 +54,7 @@ body {
     font-weight: 600;
     /* Define a espessura da fonte como negrito */
 }
+
 .text-boas-vindas .btn:hover{
     width: 92%;
     height: 48px;
@@ -63,6 +64,7 @@ body {
 .section01{
     text-align: center;
 }
+
 .section01 .btn{
     width: 30vb; /*o elemento deve ocupar 50% da largura da janela de visualização.*/
     height: 25px;

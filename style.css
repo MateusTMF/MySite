@@ -413,6 +413,10 @@ footer .line-footer p a {
         display: none;
     }
 
+    .btn-abrir-menu{
+        display: flex;
+    }
+
     /* TOPO DO SITE */
 
     section.topo-do-site .flex {
